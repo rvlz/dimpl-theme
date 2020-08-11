@@ -17,6 +17,10 @@ Author URI: http://rvlz.io
   padding-left: 0;
 }
 
+.row {
+  margin: 0;
+}
+
 /* Header styles */
 .nav-header {
   background-color: #6C4EF5;
@@ -50,10 +54,6 @@ Author URI: http://rvlz.io
 .page-heading {
   background-color: #6C4EF5;
   color: white;
-}
-
-.page-heading .row {
-  margin: 0;
 }
 
 .page-heading h1 {
@@ -92,4 +92,22 @@ Author URI: http://rvlz.io
   position: absolute;
   width: 100%;
   bottom: 0px;
+}
+
+
+/* Home Page */
+
+.page-body .campaign-description {
+  background-color: #2D2F31;
+  color: white;
+}
+
+.page-body .campaign-description p {
+  font-size: 3em;
+  font-weight: 300;
+  padding: 2em 0;
+}
+
+.page-body .contact-us {
+  background-color: #F5F5F5;
 }
